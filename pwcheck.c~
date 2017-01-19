@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+  int pw;
+  int enteredpw;
+  printf ("Enter your pw \n");
+  scanf ("%c\n", enteredpw);
+  if (isupper(enteredpw)) {
+    if (isdigit(enteredpw)) {   
+ printf ("Good\n");
+    } else {
+      printf ("Bad\n");
+ 
+  }
+
+    return 0;
+  }
